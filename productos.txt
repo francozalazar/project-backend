@@ -1,0 +1,20 @@
+[
+  {
+  "id": 1,
+  "nombre": "Curso Javascript",
+  "precio": 500,
+  "thumbnail": "https://prueba.com/"
+  },
+  {
+  "id": 2,
+  "nombre": "Curso Python",
+  "precio": 300,
+  "thumbnail": "https://prueba.com/"
+  },
+  {
+  "id": 3,
+  "nombre": "Curso Java",
+  "precio": 800,
+  "thumbnail": "https://prueba.com/"
+  }
+]
