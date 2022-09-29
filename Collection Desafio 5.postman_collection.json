@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "4832b726-83b7-4154-ac65-611686bec7bf",
+		"name": "Collection Desafio 5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/productos/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"productos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Producto Nuevo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "",
+							"type": "default"
+						},
+						{
+							"key": "precio",
+							"value": "",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/api/productos",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

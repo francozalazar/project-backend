@@ -1,0 +1,21 @@
+extends layout 
+
+block content
+    div(class="container col-10 col-lg-6")
+        div(class="row my-2")
+            a(href=baseURL + "productos"  class="btn btn-light inline-block")  Volver a los productos
+        div(class="row my-2")
+            form(action="/productos", method="post")
+                div(class="mb-3")
+                    label(class="form-label" for="nombre") Nombre
+                    input(class="form-control" type="text" name="nombre" placeholder="Ingrese el nombre...")
+                div(class="mb-3")
+                    label(class="form-label" for="precio") Precio
+                    input(class="form-control" type="number" name="precio" placeholder="Ingrese el precio...")
+                div(class="mb-3")
+                    label(class="form-label" for="url") Imagen
+                    input(class="form-control" type="text" name="url" placeholder="Enlace de la imagen...")
+                    div(class="form-text") Por favor ingrese el texto de la imagen
+                input(class="btn btn-primary" type="submit", value="Enviar")
+            
+            
